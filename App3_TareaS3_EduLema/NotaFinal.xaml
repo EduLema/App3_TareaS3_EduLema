@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App3_TareaS3_EduLema.NotaFinal">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Nota Final" TextColor="Red"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+
+            <Label Text="Nota Final es:" FontSize="12"/>
+            <Entry x:Name="txtNotaFinal" IsReadOnly="True" FontSize="12"/>
+
+            <Label Text="Estado:" FontSize="12"/>
+            <Entry x:Name="txtestado" FontSize="12"/>
+
+            <Button x:Name="btnnotafinal" Text="NOTA FINAL" Clicked="btnnotafinal_Clicked" FontSize="12"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
